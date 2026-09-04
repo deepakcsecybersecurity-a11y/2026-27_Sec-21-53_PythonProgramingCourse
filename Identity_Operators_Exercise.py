@@ -1,10 +1,16 @@
 #Identity Operator Exercise
 a=[1,2,3,42,424,53]
-b=a
-result=b is a # is identity operator
-print("result of",b, "is",a,"is :",result)
+b=a # is identity operator
 
-c=[32,543,76]
-d=[32,543,76]
-result=d is c #is identity operator
-print("result of",d,"is",c,"is :",result)
+if a is b: #is identity operator
+    print("a and b are same objects")
+else:
+    print("a and b are different objects")
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+
+if a is not b:
+    print("a and b are different objects")
+else:
+    print("a and b are the same object")
