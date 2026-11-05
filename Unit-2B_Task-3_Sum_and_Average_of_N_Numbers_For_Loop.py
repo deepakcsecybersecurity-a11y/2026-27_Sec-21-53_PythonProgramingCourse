@@ -10,4 +10,4 @@ for count in range(Enter_total_numbers):
 average = total_value/ Enter_total_numbers
 
 print(f"Sum of {Enter_total_numbers} numbers is {total_value}")
-print(f"Average of {Enter_total_numbers} numbers (sum {total_value}) is {average}")
+print(f"Average of {Enter_total_numbers} numbers is {average}")
